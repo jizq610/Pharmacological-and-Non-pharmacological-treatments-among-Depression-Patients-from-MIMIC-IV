@@ -1,0 +1,1493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:ex="http://example.org/ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/ontology#etccode -->
+
+    <AnnotationProperty rdf:about="http://example.org/ontology#etccode"/>
+    
+
+
+    <!-- http://example.org/ontology#etcdescription -->
+
+    <AnnotationProperty rdf:about="http://example.org/ontology#etcdescription"/>
+    
+
+
+    <!-- http://example.org/ontology#gsn -->
+
+    <AnnotationProperty rdf:about="http://example.org/ontology#gsn"/>
+    
+
+
+    <!-- http://example.org/ontology#ndc -->
+
+    <AnnotationProperty rdf:about="http://example.org/ontology#ndc"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/drug#Amitriptyline -->
+
+    <Class rdf:about="http://example.org/drug#Amitriptyline">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46043</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46048</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544015230</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544040530</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Anafranil -->
+
+    <Class rdf:about="http://example.org/drug#Anafranil">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46120</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16714084901</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Brintellix -->
+
+    <Class rdf:about="http://example.org/drug#Brintellix">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_SSRI_and_Serotonin_(5-HT)_Receptor_Modulator"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6429.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - SSRI and Serotonin (5-HT) Receptor Modulator</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71510</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71512</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764056030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764058030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Brisdelle -->
+
+    <Class rdf:about="http://example.org/drug#Brisdelle">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Menopausal_Symptoms_Suppressant-SSRI_Antidepressant_Type"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6417.0</ex:etccode>
+        <ex:etcdescription>Menopausal Symptoms Suppressant-SSRI Antidepressant Type</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71167</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43547040903</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Budeprion_XL -->
+
+    <Class rdf:about="http://example.org/drug#Budeprion_XL">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53006</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010100</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Bupropion -->
+
+    <Class rdf:about="http://example.org/drug#Bupropion">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46237</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50496</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370016106</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590046830</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Bupropion_HCl -->
+
+    <Class rdf:about="http://example.org/drug#Bupropion_HCl">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46237</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46239</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50496</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53006</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53007</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010100</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010200</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370015906</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370016106</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590046830</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Celexa -->
+
+    <Class rdf:about="http://example.org/drug#Celexa">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46203</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46204</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46206</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544017930</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544018230</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10768706001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Citalopram -->
+
+    <Class rdf:about="http://example.org/drug#Citalopram">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46203</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46204</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46206</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544017930</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544018230</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10768706001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Cymbalta -->
+
+    <Class rdf:about="http://example.org/drug#Cymbalta">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57891</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57892</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57893</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280016315</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280017060</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280017115</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Doxepin -->
+
+    <Class rdf:about="http://example.org/drug#Doxepin">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46090</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845034801</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Effexor -->
+
+    <Class rdf:about="http://example.org/drug#Effexor">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46398</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46401</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280001100</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811067210</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Effexor_XR -->
+
+    <Class rdf:about="http://example.org/drug#Effexor_XR">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46403</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46404</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46405</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001801</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668002001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Emsam -->
+
+    <Class rdf:about="http://example.org/drug#Emsam">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60453</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39506003330</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Fetzima -->
+
+    <Class rdf:about="http://example.org/drug#Fetzima">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71496</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71497</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71498</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456221230</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456224030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456228030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Fluoxetine -->
+
+    <Class rdf:about="http://example.org/drug#Fluoxetine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46213</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46214</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46215</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544006530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544058290</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544058390</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Forfivo_XL -->
+
+    <Class rdf:about="http://example.org/drug#Forfivo_XL">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69853</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47781063730</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Lexapro -->
+
+    <Class rdf:about="http://example.org/drug#Lexapro">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50712</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50760</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51642</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544023030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Mirtazapine -->
+
+    <Class rdf:about="http://example.org/drug#Mirtazapine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">527.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Alpha-2 Receptor Antagonists (NaSSA)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46450</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46451</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46452</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107000305</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107003105</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107003205</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Nardil -->
+
+    <Class rdf:about="http://example.org/drug#Nardil">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46263</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43386036021</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Nortriptyline -->
+
+    <Class rdf:about="http://example.org/drug#Nortriptyline">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46062</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590051030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Pamelor -->
+
+    <Class rdf:about="http://example.org/drug#Pamelor">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46059</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46061</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590043530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590059030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Parnate -->
+
+    <Class rdf:about="http://example.org/drug#Parnate">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46264</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24987044710</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Paroxetine_HCl -->
+
+    <Class rdf:about="http://example.org/drug#Paroxetine_HCl">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46223</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46225</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544043330</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544080930</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Paxil -->
+
+    <Class rdf:about="http://example.org/drug#Paxil">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46222</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46223</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46224</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46225</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544043330</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544080930</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107015405</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107015605</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Paxil_CR -->
+
+    <Class rdf:about="http://example.org/drug#Paxil_CR">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50136</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280001715</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Pristiq -->
+
+    <Class rdf:about="http://example.org/drug#Pristiq">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63736</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63737</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73778</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356049130</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356056730</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51407002130</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Prozac -->
+
+    <Class rdf:about="http://example.org/drug#Prozac">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46213</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46214</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46215</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544006530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544058290</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544058390</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Remeron -->
+
+    <Class rdf:about="http://example.org/drug#Remeron">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">527.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Alpha-2 Receptor Antagonists (NaSSA)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46450</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46451</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46452</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107000305</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107003105</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107003205</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Remeron_SolTab -->
+
+    <Class rdf:about="http://example.org/drug#Remeron_SolTab">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">527.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Alpha-2 Receptor Antagonists (NaSSA)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47453</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47454</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23490921000</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52152025518</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Savella -->
+
+    <Class rdf:about="http://example.org/drug#Savella">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65086</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356062460</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Sertraline -->
+
+    <Class rdf:about="http://example.org/drug#Sertraline">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46227</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46228</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46229</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000401</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000501</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000601</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Tofranil -->
+
+    <Class rdf:about="http://example.org/drug#Tofranil">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46068</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10876025001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Trazodone -->
+
+    <Class rdf:about="http://example.org/drug#Trazodone">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-2_Antagonist-Reuptake_Inhibitors_(SARIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2812.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-2 Antagonist-Reuptake Inhibitors (SARIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46241</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46242</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46243</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46244</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544034630</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544053290</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544053390</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668033301</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Trintellix -->
+
+    <Class rdf:about="http://example.org/drug#Trintellix">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_SSRI_and_Serotonin_(5-HT)_Receptor_Modulator"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6429.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - SSRI and Serotonin (5-HT) Receptor Modulator</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71509</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71510</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71512</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764055007</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764056030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764058030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Venlafaxine -->
+
+    <Class rdf:about="http://example.org/drug#Venlafaxine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46401</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46404</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64446</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280001100</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811071430</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Viibryd -->
+
+    <Class rdf:about="http://example.org/drug#Viibryd">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_SSRI_and_5HT1A_Partial_Agonist"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6279.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - SSRI and 5HT1A Partial Agonist</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67376</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67377</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67378</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456111030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456112030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456114030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Wellbutrin -->
+
+    <Class rdf:about="http://example.org/drug#Wellbutrin">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46236</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46237</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590003730</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590046830</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Wellbutrin_SR -->
+
+    <Class rdf:about="http://example.org/drug#Wellbutrin_SR">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46238</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46239</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50496</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370015906</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370016006</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370016106</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Wellbutrin_XL -->
+
+    <Class rdf:about="http://example.org/drug#Wellbutrin_XL">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53006</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53007</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010100</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010200</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#Zoloft -->
+
+    <Class rdf:about="http://example.org/drug#Zoloft">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46227</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46228</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46229</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000401</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000501</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000601</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#amoxapine -->
+
+    <Class rdf:about="http://example.org/drug#amoxapine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46084</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845039501</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HBr -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HBr">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64896</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64899</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65345</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24581030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24581130</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24581230</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#clomipramine -->
+
+    <Class rdf:about="http://example.org/drug#clomipramine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46120</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46121</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46122</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10135069901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10135070001</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16714084901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16714085001</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16714085101</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#desipramine -->
+
+    <Class rdf:about="http://example.org/drug#desipramine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46103</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46104</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46105</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46106</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46107</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845030801</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845030901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845031101</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845031501</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11845031601</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#desvenlafaxine -->
+
+    <Class rdf:about="http://example.org/drug#desvenlafaxine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70829</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70830</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71658</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71660</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44183088031</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44183089031</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63304019130</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63304019230</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#desvenlafaxine_succinate -->
+
+    <Class rdf:about="http://example.org/drug#desvenlafaxine_succinate">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63736</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63737</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356049130</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356056730</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#duloxetine -->
+
+    <Class rdf:about="http://example.org/drug#duloxetine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57891</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57892</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57893</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74166</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80045</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80047</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280016315</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280017060</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280017115</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27241016430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27437029806</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47335061730</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47335061930</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#escitalopram -->
+
+    <Class rdf:about="http://example.org/drug#escitalopram">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50712</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50760</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544023030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#escitalopram_oxalate -->
+
+    <Class rdf:about="http://example.org/drug#escitalopram_oxalate">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50712</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50760</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51642</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544023030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#fluvoxamine -->
+
+    <Class rdf:about="http://example.org/drug#fluvoxamine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46208</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46209</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46210</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63767</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63768</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370017511</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370017611</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356002930</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356003030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356003130</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#imipramine_HCl -->
+
+    <Class rdf:about="http://example.org/drug#imipramine_HCl">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46068</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46069</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46070</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10876025001</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10876025101</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10876025201</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#nefazodone -->
+
+    <Class rdf:about="http://example.org/drug#nefazodone">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-2_Antagonist-Reuptake_Inhibitors_(SARIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2812.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-2 Antagonist-Reuptake Inhibitors (SARIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46253</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46254</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46255</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46256</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590016630</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590068160</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21695017560</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42291063101</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#olanzapine-fluoxetine -->
+
+    <Class rdf:about="http://example.org/drug#olanzapine-fluoxetine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-_SSRI_and_Atypical_Antipsych,Dopamine,Serotonin_Antagon"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5760.0</ex:etccode>
+        <ex:etcdescription>Antidepressant- SSRI and Atypical Antipsych,Dopamine,Serotonin Antagon</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53402</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42291065530</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#paroxetine_mesylate -->
+
+    <Class rdf:about="http://example.org/drug#paroxetine_mesylate">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53388</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53389</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53390</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54766020201</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54766020301</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54766020401</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#phenelzine -->
+
+    <Class rdf:about="http://example.org/drug#phenelzine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46263</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43386036021</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#selegiline -->
+
+    <Class rdf:about="http://example.org/drug#selegiline">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60453</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60454</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39506003330</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39506004430</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#tranylcypromine -->
+
+    <Class rdf:about="http://example.org/drug#tranylcypromine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46264</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24987044710</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#venlafaxine -->
+
+    <Class rdf:about="http://example.org/drug#venlafaxine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46398</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46399</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46400</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46401</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46402</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46403</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46404</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46405</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64444</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64445</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64446</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64447</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280001100</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001801</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668002001</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811067210</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811067310</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811067410</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811067610</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811071230</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811071330</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811071430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13811071530</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#vilazodone -->
+
+    <Class rdf:about="http://example.org/drug#vilazodone">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_SSRI_and_5HT1A_Partial_Agonist"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6279.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - SSRI and 5HT1A Partial Agonist</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67378</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456114030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#vortioxetine -->
+
+    <Class rdf:about="http://example.org/drug#vortioxetine">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_SSRI_and_Serotonin_(5-HT)_Receptor_Modulator"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6429.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - SSRI and Serotonin (5-HT) Receptor Modulator</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71509</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71510</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71512</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764055007</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764056030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64764058030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_(bulk) -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_(bulk)">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54611</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51927335800</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HBr_[Aplenzin] -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HBr_[Aplenzin]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64896</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64899</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24581130</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24581230</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HCl_[Budeprion_SR] -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HCl_[Budeprion_SR]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46239</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370015906</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HCl_[Budeprion_XL] -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HCl_[Budeprion_XL]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53007</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010200</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HCl_[Wellbutrin] -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HCl_[Wellbutrin]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46236</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46237</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590003730</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590046830</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HCl_[Wellbutrin_SR] -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HCl_[Wellbutrin_SR]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46238</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46239</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50496</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370015906</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370016006</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370016106</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#bupropion_HCl_[Wellbutrin_XL] -->
+
+    <Class rdf:about="http://example.org/drug#bupropion_HCl_[Wellbutrin_XL]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2811.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Norepinephrine and Dopamine Reuptake Inhibitors (NDRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53006</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53007</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010100</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10370010200</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#citalopram_[Celexa] -->
+
+    <Class rdf:about="http://example.org/drug#citalopram_[Celexa]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46203</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46204</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46206</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544017930</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544018230</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10768706001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#clomipramine_[Anafranil] -->
+
+    <Class rdf:about="http://example.org/drug#clomipramine_[Anafranil]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46121</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16714085001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#desvenlafaxine_[Pristiq] -->
+
+    <Class rdf:about="http://example.org/drug#desvenlafaxine_[Pristiq]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63736</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356049130</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#desvenlafaxine_succinate_[Pristiq] -->
+
+    <Class rdf:about="http://example.org/drug#desvenlafaxine_succinate_[Pristiq]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63736</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356049130</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#doxepin_[Silenor] -->
+
+    <Class rdf:about="http://example.org/drug#doxepin_[Silenor]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Tricyclics_(Sedative-Hypnotic)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6244.0</ex:etccode>
+        <ex:etcdescription>Sedative-Hypnotic - Tricyclic Antidepressant Type</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66591</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42847010303</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#duloxetine_[Cymbalta] -->
+
+    <Class rdf:about="http://example.org/drug#duloxetine_[Cymbalta]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57891</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57892</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57893</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280016315</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280017060</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12280017115</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#escitalopram_[Lexapro] -->
+
+    <Class rdf:about="http://example.org/drug#escitalopram_[Lexapro]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50760</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51642</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544023030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#escitalopram_oxalate_[Lexapro] -->
+
+    <Class rdf:about="http://example.org/drug#escitalopram_oxalate_[Lexapro]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50712</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50760</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51642</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51698</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544022530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544023030</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31722056924</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#fluoxetine_[Prozac] -->
+
+    <Class rdf:about="http://example.org/drug#fluoxetine_[Prozac]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46213</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46214</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46215</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544006530</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544058290</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544058390</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#isocarboxazid_[Marplan] -->
+
+    <Class rdf:about="http://example.org/drug#isocarboxazid_[Marplan]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46262</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30698003201</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#milnacipran_[Savella] -->
+
+    <Class rdf:about="http://example.org/drug#milnacipran_[Savella]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65086</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35356062460</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#mirtazapine_[Remeron] -->
+
+    <Class rdf:about="http://example.org/drug#mirtazapine_[Remeron]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">527.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Alpha-2 Receptor Antagonists (NaSSA)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46450</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46451</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46452</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107000305</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107003105</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107003205</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#mirtazapine_[Remeron_SolTab] -->
+
+    <Class rdf:about="http://example.org/drug#mirtazapine_[Remeron_SolTab]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">527.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Alpha-2 Receptor Antagonists (NaSSA)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47453</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23490921000</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#nortriptyline_[Pamelor] -->
+
+    <Class rdf:about="http://example.org/drug#nortriptyline_[Pamelor]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46061</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16590059030</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#paroxetine_HCl_[Paxil] -->
+
+    <Class rdf:about="http://example.org/drug#paroxetine_HCl_[Paxil]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46222</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46223</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46224</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46225</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544043330</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10544080930</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107015405</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13107015605</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#phenelzine_[Nardil] -->
+
+    <Class rdf:about="http://example.org/drug#phenelzine_[Nardil]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46263</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43386036021</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#selegiline_[Emsam] -->
+
+    <Class rdf:about="http://example.org/drug#selegiline_[Emsam]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60454</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60455</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39506004430</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39506005530</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#sertraline_[Zoloft] -->
+
+    <Class rdf:about="http://example.org/drug#sertraline_[Zoloft]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">530.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Selective Serotonin Reuptake Inhibitors (SSRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46227</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46228</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46229</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000401</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000501</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668000601</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#tranylcypromine_[Parnate] -->
+
+    <Class rdf:about="http://example.org/drug#tranylcypromine_[Parnate]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2586.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - MAO Inhibitor Nonselective and Irreversible-Types A,B</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46264</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24987044710</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#trazodone_(bulk) -->
+
+    <Class rdf:about="http://example.org/drug#trazodone_(bulk)">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-2_Antagonist-Reuptake_Inhibitors_(SARIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2812.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-2 Antagonist-Reuptake Inhibitors (SARIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23730</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38779055903</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#trimipramine_[Surmontil] -->
+
+    <Class rdf:about="http://example.org/drug#trimipramine_[Surmontil]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2589.0</ex:etccode>
+        <ex:etcdescription>Antidepressant-Tricyclics and Related (Non-Select Reuptake Inhibitors)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46113</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17236048401</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/drug#venlafaxine_[Effexor_XR] -->
+
+    <Class rdf:about="http://example.org/drug#venlafaxine_[Effexor_XR]">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)"/>
+        <ex:etccode rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2587.0</ex:etccode>
+        <ex:etcdescription>Antidepressant - Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)</ex:etcdescription>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46403</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46404</ex:gsn>
+        <ex:gsn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46405</ex:gsn>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001801</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668001901</ex:ndc>
+        <ex:ndc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13668002001</ex:ndc>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_SSRI_and_5HT1A_Partial_Agonist -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_SSRI_and_5HT1A_Partial_Agonist">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Menopausal_Symptoms_Suppressant-SSRI_Antidepressant_Type -->
+
+    <Class rdf:about="http://example.org/ontology#Menopausal_Symptoms_Suppressant-SSRI_Antidepressant_Type">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant-Norepinephrine_and_Dopamine_Reuptake_Inhibitors_(NDRIs)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant-Tricyclics_and_Related_(Non-Select_Reuptake_Inhibitors)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant-_SSRI_and_Atypical_Antipsych,Dopamine,Serotonin_Antagon -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant-_SSRI_and_Atypical_Antipsych,Dopamine,Serotonin_Antagon">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_Alpha-2_Receptor_Antagonists_(NaSSA)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_MAO_Inhibitor_Nonselective_and_Irreversible-Types_A,B">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_SSRI_and_Serotonin_(5-HT)_Receptor_Modulator -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_SSRI_and_Serotonin_(5-HT)_Receptor_Modulator">
+        <rdfs:subClassOf rdf:resource="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_Selective_Serotonin_Reuptake_Inhibitors_(SSRIs)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_Serotonin-2_Antagonist-Reuptake_Inhibitors_(SARIs) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_Serotonin-2_Antagonist-Reuptake_Inhibitors_(SARIs)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_Serotonin-Norepinephrine_Reuptake_Inhibitors_(SNRIs)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://example.org/ontology#Antidepressant_-_Tricyclics_(Sedative-Hypnotic) -->
+
+    <Class rdf:about="http://example.org/ontology#Antidepressant_-_Tricyclics_(Sedative-Hypnotic)">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Antidepressant -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Antidepressant"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
